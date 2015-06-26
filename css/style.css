@@ -136,7 +136,7 @@ hr {
 
 
 
-/* 2: Major Third 1.250
+/* 3: Major Third 1.250
  * --------------------------------------- */
 
 .majorThird {
@@ -171,7 +171,7 @@ hr {
 }
 
 
-/* 3: Perfect Fourth 1.333
+/* 4: Perfect Fourth 1.333
  * --------------------------------------- */
 
 .perfectFourth {
@@ -207,10 +207,7 @@ hr {
 }
 
 
-
-
-
-/* 3: Augmented Fourth 1.414
+/* 5: Augmented Fourth 1.414
  * --------------------------------------- */
 
 .augmentedFourth {
