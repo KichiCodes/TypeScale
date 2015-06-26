@@ -1,0 +1,246 @@
+@CHARSET "ISO-8859-1";
+
+/* Custom CSS
+ * --------------------------------------- */
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 5em 0;
+    text-rendering: optimizeLegibility;
+    color: #222222;
+}
+
+.container  {
+    width: 800px;
+    margin: 0 auto;
+}
+
+a {
+  color: #72A200;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #F65D00;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3.998em;
+}
+
+h2 {
+    font-size: 2.827em;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+blockquote {
+    border-left: 4px solid #ddd;
+    color: #aaa;
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 3em auto;
+    padding-left: 2em;
+}
+
+hr {
+	border: 0;
+	border-bottom: 4px solid #eee;
+}
+
+.section{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+
+.intro{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+.note {
+	font-size: .5em;
+	color: #ccc;
+}
+
+.augmentedFourth .type-size,
+.majorThird .type-size,
+.minorThird .type-size,
+.perfectFourth .type-size {
+	opacity: .2;
+}
+
+/* 2: Minor Third 1.200
+ * --------------------------------------- */
+
+.minorThird {
+	color: #fff;
+}
+
+.minorThird h1, .minorThird h2, .minorThird h3 {
+    line-height: 1.2;
+}
+
+.minorThird h1 {
+    font-size: 2.074em;
+}
+
+.minorThird h2 {
+    font-size: 1.728em;
+}
+
+.minorThird h3 {
+    font-size: 1.44em;
+}
+
+.minorThird h4 {
+	font-size: 1.2em;
+}
+
+.minorThird h5 {
+	font-size: 1em;
+}
+
+.minorThird h6 {
+	font-size: .833em;
+}
+
+
+
+/* 2: Major Third 1.250
+ * --------------------------------------- */
+
+.majorThird {
+}
+
+.majorThird h1, .majorThird h2, .majorThird h3 {
+    line-height: 1.2;
+}
+
+.majorThird h1 {
+    font-size: 2.441em;
+}
+
+.majorThird h2 {
+    font-size: 1.953em;
+}
+
+.majorThird h3 {
+    font-size: 1.563em;
+}
+
+.majorThird h4 {
+	font-size: 1.25em;
+}
+
+.majorThird h5 {
+	font-size: 1em;
+}
+
+.majorThird h6 {
+	font-size: .8em;
+}
+
+
+/* 3: Perfect Fourth 1.333
+ * --------------------------------------- */
+
+.perfectFourth {
+	color: #fff;
+}
+
+.perfectFourth h1, .perfectFourth h2, .perfectFourth h3 {
+    line-height: 1.2;
+}
+
+.perfectFourth h1 {
+    font-size: 3.157em;
+}
+
+.perfectFourth h2 {
+    font-size: 2.369em;
+}
+
+.perfectFourth h3 {
+    font-size: 1.777em;
+}
+
+.perfectFourth h4 {
+	font-size: 1.333em;
+}
+
+.perfectFourth h5 {
+	font-size: 1em;
+}
+
+.perfectFourth h6 {
+	font-size: .75em;
+}
+
+
+
+
+
+/* 3: Augmented Fourth 1.414
+ * --------------------------------------- */
+
+.augmentedFourth {
+	color: #fff;
+}
+
+.augmentedFourth h1, .augmentedFourth h2, .augmentedFourth h3 {
+    line-height: 1.2;
+}
+
+.augmentedFourth h1 {
+    font-size: 3.998em;
+}
+
+.augmentedFourth h2 {
+    font-size: 2.827em;
+}
+
+.augmentedFourth h3 {
+    font-size: 1.999em;
+}
+
+.augmentedFourth h4 {
+	font-size: 1.414em;
+}
+
+.augmentedFourth h5 {
+	font-size: 1em;
+}
+
+.augmentedFourth h6 {
+	font-size: .707em;
+}
